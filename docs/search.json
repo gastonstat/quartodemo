@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "lab-use.html",
+    "href": "lab-use.html",
+    "title": "Using the Slides",
+    "section": "",
+    "text": "The keyboard shortcuts available while viewing the slides are provided below. These can also be seen by pressing ?.\n\n\n\nKey\nAction\n\n\n\n\nCTRL + SHIFT + F\nSearch\n\n\n→, ↓, SPACE, N, L, J\nNext slide\n\n\n← , ↑ , P , H , K\nPrevious Slide\n\n\nAlt + ←/↑/→/↓\nNavigate without transitions\n\n\nShift + ←/↑/→/↓\nJump to first/last slide\n\n\nB, ,, .\nPause\n\n\nF\nFullscreen\n\n\nESC, O\nSlide overview\n\n\nE\nPDF export mode\n\n\nM\nToggle menu\n\n\nS\nSpeaker notes view"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome!",
+    "section": "",
+    "text": "Blah, blah, blah\nIf you’ve spotted a bug on the website, please ignore it.\nAgain, this is just a test.\n\n\nSource Code\nIf you’re interested, the source code of a website example is available here."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Description\nStatistics 2 is a course designed primarily as a basic introductory course for statistical thinking. It is not very mathematical. Neither linear algebra nor calculus is required, although some concepts seem more natural if you understand integration and differentiation. You do need to be comfortable with math at the level of high-school algebra (e.g., the equation of a straight line, plotting points, taking powers and roots, percentages).\n\n\n\n\n\nStat 33B logo by Jakob Sorensen\n\n\n\n\nThe middle of the course involves a fair amount of combinatorics—counting. The emphasis of the course is critical thinking about quantitative evidence. Topics include reasoning and fallacies, descriptive statistics, association, correlation, regression, elements of probability, set theory, chance variability, random variables, expectation, standard error, sampling, hypothesis tests, confidence intervals, experiments and observational studies, as well as common techniques of presenting data in misleading ways.\n\nggplot(iris, aes(x = Sepal.Length, y = Sepal.Width)) +\n  geom_point(aes(color = Species))\n\n\n\n\nWhat about an animation?\nMeet \"gganimate\"\n\np <- ggplot(iris, aes(x = Petal.Width, y = Petal.Length)) + \n  geom_point()\n\nanim <- p + \n  transition_states(Species,\n                    transition_length = 2,\n                    state_length = 1)\n\nanim\n\n\n\n\n\n\nHomework Assignments\n\nWeekly homework assignments are due as posted online.\nAssignments must be turned in during lab discussion.\nDon’t wait until the last hour to do an assignment. Plan ahead and pace yourself.\nAfter the due date of each assignment, you will have access to the correct answers in bCourses.\nThe homework assignments tend to be substantially more difficult than the exams.\nNo late assignments will be accepted, for any reason, including, but not limited to, theft, extraordinary circumnstances, and your pet’s dietary idiosyncrasies.\nInstead of late HW, I will drop your lowest two HW scores.\n\n\n\nGrading Structure\n\n10% attendance\n10% pop quizzes (during lab discussions)\n20% homework\n30% midterm\n30% final\n\n\n\nCalculator Policy\n\nYou can use a scientific calculator (regular or graphing) for quizzes and tests.\nHowever, no phone calculators or tablet calculators are allowed.\nIf you don’t bring a scientific calculator to a quiz/midterm, do your computations by hand (you won’t be allowed to borrow someone else’s calculator).\n\n\n\nAdvice for success\nTry to solve all exercises in each chapter: Some show up on exams. Read all homework and exam questions carefully, and take them literally—don’t try to second-guess what is meant. Attend lab discussions.\n\n\nSource Code\nIf you’re interested, the source code for this website is available here."
+  },
+  {
+    "objectID": "times.html",
+    "href": "times.html",
+    "title": "Office Hours",
+    "section": "",
+    "text": "Danger\n\n\n\nThe hours listed below were recently updated for Spring 2023.\n\n\n\nSome Equations\nLet’s check some latex\n\\[\n\\bar{x} = \\frac{x_1 + x_2 + \\dots + x_n}{n}\n\\]\nand also\n\\[\n\\| \\mathbf{x} \\| = \\sqrt{\\mathbf{x}^\\mathsf{T} \\mathbf{x}}\n\\]\n\n\nMy Office Hours\n\nMondays, 8 a.m. to 10 a.m. via Zoom1\nThursdays, 1 p.m. to 3 p.m. in Evans 434\n\n\n\nMy Lab Sections\n\n103: Thursdays, 11 a.m. to 1 p.m. in Evans 340\n106: Thursdays, 3 p.m. to 5 p.m. in Evans 340\n\n\n\n\n\n\nFootnotes\n\n\nYou must be logged into your UC Berkeley associated Zoom account to access the meeting.↩︎"
+  }
+]
